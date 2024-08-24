@@ -19,3 +19,5 @@ const  Colors = {
         information: '#E0E0E0'
     }
 }
+
+export default Colors

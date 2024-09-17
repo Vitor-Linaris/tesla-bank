@@ -6,8 +6,8 @@ import {
   HeaderItem,
   HeaderItemLink,
   HeaderItems,
-  HeaderTitle,
-} from "./Header.styles";
+  HeaderTitle
+} from './Header.styles'
 
 const Header = () => {
   return (
@@ -34,7 +34,7 @@ const Header = () => {
         </HeaderButtons>
       </HeaderContainer>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

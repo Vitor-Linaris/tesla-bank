@@ -1,10 +1,9 @@
-import Header from "./components/Header/Header.component"
+import Header from './components/Header/Header.component'
 
 function App() {
-
   return (
     <>
-      <Header/>
+      <Header />
     </>
   )
 }

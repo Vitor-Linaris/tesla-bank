@@ -1,6 +1,6 @@
 import Header from './components/Header/Header.component'
 
-function App() {
+function App () {
   return (
     <>
       <Header />

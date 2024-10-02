@@ -1,6 +1,6 @@
+import CustomButton from '../Custom-button/Custom-button.component'
 import {
   BtnLink,
-  BtnPrimary,
   HeaderButtons,
   HeaderContainer,
   HeaderItem,
@@ -30,7 +30,7 @@ const Header = () => {
         </HeaderItems>
         <HeaderButtons>
           <BtnLink>Entrar</BtnLink>
-          <BtnPrimary>Abrir Conta</BtnPrimary>
+          <CustomButton color='primary'>Abrir conta</CustomButton>
         </HeaderButtons>
       </HeaderContainer>
     </>

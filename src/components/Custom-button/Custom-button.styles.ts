@@ -3,8 +3,6 @@ import Colors from '../../theme/theme.color'
 import { CustomButtonProps } from './Custom-button.component'
 
 export const CustomButtonContainer = styled.button<CustomButtonProps>`
-  width: 100%;
-  max-width: 144px;
   ${(props) => props.color && COLOR[props.color]}
   display: flex;
   align-items: center;

@@ -30,11 +30,19 @@ export const HeaderItems = styled.ul`
 `
 
 export const HeaderItem = styled.li`
+  cursor: pointer;
+  border-radius: 6px;
   list-style: none;
-  padding: 8px;
+  padding: 8px 12px;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #f9f9f9;
+  }
 `
 
 export const HeaderItemLink = styled.a`
+  display: flex;
   color: ${Colors.neutra.dark};
   font-size: 16px;
   font-weight: 500;

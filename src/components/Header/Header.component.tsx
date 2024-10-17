@@ -9,6 +9,8 @@ import {
   HeaderTitle
 } from './Header.styles'
 
+import arrowDropDown from '../../assets/arrow-drop-down-line.svg'
+
 const Header = () => {
   return (
     <>
@@ -19,13 +21,19 @@ const Header = () => {
             <HeaderItemLink>Benefícios</HeaderItemLink>
           </HeaderItem>
           <HeaderItem>
-            <HeaderItemLink>Conta digital</HeaderItemLink>
+            <HeaderItemLink>
+              Conta digital
+              <img src={arrowDropDown} alt='Icon arrow drop down' />
+            </HeaderItemLink>
           </HeaderItem>
           <HeaderItem>
             <HeaderItemLink>Suporte</HeaderItemLink>
           </HeaderItem>
           <HeaderItem>
-            <HeaderItemLink>Blog</HeaderItemLink>
+            <HeaderItemLink>
+              Blog
+              <img src={arrowDropDown} alt='Icon arrow drop down' />
+            </HeaderItemLink>
           </HeaderItem>
         </HeaderItems>
         <HeaderButtons>

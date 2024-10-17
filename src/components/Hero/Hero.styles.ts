@@ -7,6 +7,7 @@ export const Container = styled.div`
   max-width: 1246px;
   padding: 0 15px;
   display: flex;
+  gap: 130px;
 `
 
 export const TextArea = styled.div`
@@ -77,4 +78,26 @@ export const DownloadMobile = styled.div`
 
 export const CreaditCardArea = styled.div`
   position: relative;
+
+  .card1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .card2 {
+    position: absolute;
+    bottom: 0px;
+    left: -30px;
+    transform: rotate(-11.5deg);
+    transition: all 0.6s ease;
+  }
+
+  &:hover {
+    .card2 {
+      bottom: 26px;
+      left: 0px;
+      transform: rotate(0deg);
+    }
+  }
 `

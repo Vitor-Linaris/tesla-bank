@@ -70,8 +70,8 @@ const Hero = () => {
           </CtaDownload>
         </TextArea>
         <CreaditCardArea>
-          <img src={creditCardBlack} alt='' />
-          <img src={creditCardRed} alt='' />
+          <img className='card1' src={creditCardBlack} alt='' />
+          <img className='card2' src={creditCardRed} alt='' />
         </CreaditCardArea>
       </Container>
     </>

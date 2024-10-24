@@ -1,7 +1,8 @@
 const Colors = {
   brand: {
     brandColorRed: '#EB3850',
-    brandColorRedDark: '#C9253B'
+    brandColorRedDark: '#C9253B',
+    brandColorRedLight: '#FFF8F9'
   },
   gradient: {
     gradientColorRed: 'linear-gradient(270deg, #A93E4C 0%, #EB3850 100%)',
